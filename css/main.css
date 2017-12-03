@@ -1,5 +1,8 @@
+body {
+    box-sizing: content-box;
+}
 
-/*** Headings ***/
+/*** Headings and Text ***/
 h2 {
     font-family: "Lato", sans-serif;
     font-weight: 700;
@@ -9,15 +12,45 @@ h2 {
     color: #b27e3e;
     text-shadow: 5px 5px 5px #4d4d4d;
     margin: 0 0;
-    padding-top: 50px;
+    padding-top: 25%;
 }
 
 h3 {
     font-family: "Kristi";
     font-size: 3em;
     color: #ede4d5;
-    text-shadow: 5px 5px 5px #4d4d4d;
-    margin: -20px 0 0 30px;
+    text-shadow: 5px 5px 5px #000;
+    margin: -5%;
+    text-align: center;
+}
+h4 {
+    font-family: "Playfair Display";
+    color: #4d4d4d;
+    font-size: 2.1em;
+}
+
+h5 {
+    font-family: 'Lato';
+    font-size: 1.1em;
+    color: #4d4d4d;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+h6 {
+    font-family: 'Lato';
+    font-size: 1em;
+    color: #4d4d4d;
+}
+
+p {
+    font-family: 'Lato';
+    font-weight: 300;
+    color: #4d4d4d;
+    padding-bottom: 5px;
+    line-height: 1.5;
 }
 
 
@@ -47,7 +80,6 @@ figure {
     width: 100%;
     -webkit-filter: brightness(40%); /* Safari */
     filter: brightness(40%);
-    position: absolute;
 }
 
 .header-image {
@@ -57,6 +89,31 @@ figure {
 
 .on-image {
     position: absolute;
-    top: 10px;
-    left: 30px;
+    top: 15px;
+    left: 10%;
+}
+
+/** Main Container **/
+.main {
+    width: 100%;
+    margin: auto;
+}
+
+.about {
+    padding: 10px;
+    background-color: #fff;
+}
+
+/** About Section **/
+.about img {
+    width: 100%;
+}
+
+/** Daily Bakes **/
+.daily-bakes img {
+    width: 100%;
+}
+
+.daily-bakes p {
+    margin-bottom: 0;
 }
