@@ -56,17 +56,11 @@ p, ul {
     margin-top: 0;
 }
 
-
-
 /*** Navigation ***/
 .logo img {
     width: 150px;
     display: block;
     margin: auto;
-}
-
-.logo {
-
 }
 
 .hamburger img {
@@ -113,7 +107,6 @@ figure {
 }
 
 /** About Section **/
-
 .about button {
     background-color: #772f1a;
     border-style: none;
@@ -136,7 +129,6 @@ figure {
 }
 
 /** Cafe Menu **/
-
 .featured {
     background-color: #ede4d5;
     padding: 15px;
@@ -149,7 +141,6 @@ figure {
 
 
 /** Contact Us **/
-
 .social-media {
     margin: auto;
     width: 200px;
@@ -208,10 +199,6 @@ input#submit {
 .footer {
     width: 100%;
     background-color: #772f1a;
-    /*position: absolute;
-    right: 0;
-    left: 0;
-    bottom: 0;*/
     padding-top: 30px;
     padding-bottom: 15px;
     margin-top: 50px;
@@ -220,4 +207,29 @@ input#submit {
 
 .footer p {
     color: #fff;
+}
+
+/** Media Queries **/
+@media all and (max-width: 480px) {
+
+}
+
+@media all and (max-width: 640px) {
+
+}
+
+@media all and (max-width: 768px) {
+
+}
+
+@media all and (max-width: 1024px) {
+
+}
+
+@media all and (max-width: 1366px) {
+
+}
+
+@media all and (max-width: 1600px) {
+
 }
