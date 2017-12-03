@@ -45,13 +45,14 @@ h6 {
     color: #4d4d4d;
 }
 
-p {
+p, ul {
     font-family: 'Lato';
     font-weight: 300;
     color: #4d4d4d;
     padding-bottom: 5px;
     line-height: 1.5;
 }
+
 
 
 /*** Navigation ***/
@@ -99,21 +100,34 @@ figure {
     margin: auto;
 }
 
+/** About Section **/
 .about {
     padding: 10px;
     background-color: #fff;
 }
 
-/** About Section **/
 .about img {
     width: 100%;
 }
 
 /** Daily Bakes **/
+.daily-bakes {
+    padding: 10px;
+}
 .daily-bakes img {
     width: 100%;
 }
 
 .daily-bakes p {
     margin-bottom: 0;
+}
+
+/** Cafe Menu **/
+.cafe-menu {
+    padding: 10px;
+}
+
+.cafe-menu img {
+    width: 100%;
+
 }
