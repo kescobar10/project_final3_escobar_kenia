@@ -1,0 +1,62 @@
+
+/*** Headings ***/
+h2 {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 2.1em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #b27e3e;
+    text-shadow: 5px 5px 5px #4d4d4d;
+    margin: 0 0;
+    padding-top: 50px;
+}
+
+h3 {
+    font-family: "Kristi";
+    font-size: 3em;
+    color: #ede4d5;
+    text-shadow: 5px 5px 5px #4d4d4d;
+    margin: -20px 0 0 30px;
+}
+
+
+/*** Navigation ***/
+.logo img {
+    width: 150px;
+    display: block;
+    margin: auto;
+}
+
+.logo {
+
+}
+
+.hamburger img {
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+/*** Hero Image ***/
+figure {
+    margin: 0;
+}
+
+.header-image img {
+    width: 100%;
+    -webkit-filter: brightness(40%); /* Safari */
+    filter: brightness(40%);
+    position: absolute;
+}
+
+.header-image {
+    position: relative;
+    width: 100%;
+}
+
+.on-image {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
