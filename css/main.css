@@ -26,8 +26,9 @@ h3 {
 h4 {
     font-family: "Playfair Display";
     color: #4d4d4d;
-    font-size: 2.1em;
-    margin-top: 0;
+    font-size: 2.3em;
+    margin-top: 35px;
+    margin-bottom: 10px;
 }
 
 h5 {
@@ -38,6 +39,7 @@ h5 {
     letter-spacing: 3px;
     font-weight: 700;
     margin-top: : 0;
+    margin-bottom: 0
 }
 
 h6 {
@@ -45,6 +47,7 @@ h6 {
     font-size: 1em;
     color: #4d4d4d;
     margin-top: 0;
+    margin-bottom: 5px;
 }
 
 p, ul {
@@ -113,7 +116,8 @@ figure {
     height: 50px;
     font-family: 'Lato';
     color: #fff;
-    width: 70%;
+    width: 100%;
+    max-width: 480px;
     margin: auto;
     display: block;
     margin-top: 10px;
@@ -124,8 +128,7 @@ figure {
 .december-promotion {
     background-color: #ede4d5;
     padding: 40px;
-    margin: 10px;
-    margin-bottom: 30px;
+    margin: 30px 10px 30px 10px;
 }
 
 /** Cafe Menu **/
@@ -136,7 +139,8 @@ figure {
 }
 
 .featured h5 {
-    font-size: 0.7em;
+    color: #772f1a;
+    padding-bottom: 10px;
 }
 
 
@@ -209,27 +213,134 @@ input#submit {
     color: #fff;
 }
 
+hr {
+    display: none;
+}
+
 /** Media Queries **/
-@media all and (max-width: 480px) {
+@media all and (min-width: 361px) {
+    h2 {
+        font-size: 2.6em;
+    }
+
+    h3 {
+        font-size: 3.5em;
+    }
+}
+@media all and (min-width: 480px) {
+    h2 {
+        font-size: 3.3em;
+    }
+
+    h3 {
+        font-size: 4.1em;
+    }
+}
+
+@media all and (min-width: 640px) {
+    h2 {
+        padding-top: 35%;
+    }
+
+    .on-image {
+        left: 20%;
+    }
+
+    .about img {
+        float: left;
+        padding-right: 10px;
+        width: 40%;
+    }
+
+    #about {
+        float: right;
+        width: 55%;
+    }
+
+    .about h5 {
+        clear: both;
+    }
+
+    .daily-bakes img {
+        width: 75%;
+        margin: auto;
+        display: block;
+    }
+
+    .daily-bakes-float p {
+        text-align: center;
+    }
+
+    h5, h6 {
+        text-align: center;
+    }
+
+    .december-promotion {
+        clear: both;
+        margin-top: 30px;
+    }
+
+    .contact h5, .contact h6 {
+        text-align: left;
+    }
 
 }
 
-@media all and (max-width: 640px) {
+@media all and (min-width: 768px) {
+    h2 {
+        font-size: 4em;
+    }
+
+    h3 {
+        font-size: 5em;
+    }
+
+    .december-promotion img, .cafe-menu img {
+        width: 75%;
+        margin: auto;
+        display: block;
+    }
+
+    .december-promotion p, .cafe-menu p {
+        text-align: center;
+    }
+
+    .menu-cat p, .menu-cat h6 {
+        text-align: left;
+    }
+
+    p.align-left {
+        text-align: left;
+    }
 
 }
 
-@media all and (max-width: 768px) {
+@media all and (min-width: 1024px) {
+    .on-image {
+        left: 30%;
+    }
+
+    h2 {
+        font-size: 4.5em;
+    }
+
+    h3 {
+        font-size: 5.5em;
+    }
 
 }
 
-@media all and (max-width: 1024px) {
+@media all and (min-width: 1366px) {
+    .on-image {
+        left: 50%;
+    }
 
-}
+    h2 {
+        font-size: 5em;
+    }
 
-@media all and (max-width: 1366px) {
-
-}
-
-@media all and (max-width: 1600px) {
+    h3 {
+        font-size: 6.5em;
+    }
 
 }

@@ -37,8 +37,10 @@
     <main class="main">
         <section class="about">
             <h4>About Salt &amp; Butter</h4>
-            <p>Jujubes pie halvah carrot cake liquorice ice cream bonbon. Gummi bears oat cake apple pie lemon drops. Cake lollipop cake candy topping fruitcake cookie cake liquorice.</p>
-            <p>Donut croissant tart jelly beans chupa chups candy tiramisu cupcake. Ice cream chocolate lemon drops.</p>
+            <div id="about">
+                <p>Jujubes pie halvah carrot cake liquorice ice cream bonbon. Gummi bears oat cake apple pie lemon drops. Cake lollipop cake candy topping fruitcake cookie cake liquorice.</p>
+                <p>Donut croissant tart jelly beans chupa chups candy tiramisu cupcake. Ice cream chocolate lemon drops.</p>
+            </div>
             <img src="img/bakery-display.jpg" alt="Bakery Display" />
 
             <h5>New!</h5>
@@ -53,34 +55,44 @@
             <p>Jujubes pie halvah carrot cake liquorice ice cream bonbon. Gummi bears oat cake apple pie lemon drops. Cake lollipop cake candy topping fruitcake cookie cake liquorice.</p>
             <p>Donut croissant tart jelly beans chupa chups candy tiramisu cupcake. Ice cream chocolate lemon drops.</p>
             <article>
-                <h5>Monday</h5>
-                <p>Sourdough Loaf</p>
-                <h6>$4.99</h6>
+                <div class="daily-bakes-float">
+                    <h5>Monday</h5>
+                    <p>Sourdough Loaf</p>
+                    <h6>$4.99</h6>
+                </div>
                 <img src="img/bread1.jpg" alt="Monday Bread" title="Monday Bread"/>
             </article>
             <article>
-                <h5>Tuesday</h5>
-                <p>Rye Rolls</p>
-                <h6>$2.99</h6>
-                <img src="img/bread2.jpg" alt="Monday Bread" title="Monday Bread"/>
+                <div class="daily-bakes-float">
+                    <h5>Tuesday</h5>
+                    <p>Rye Rolls</p>
+                    <h6>$2.99</h6>
+                </div>
+                <img src="img/bread2.jpg" alt="Tuesday Bread" title="Tuesday Bread"/>
             </article>
             <article>
-                <h5>Wednesday</h5>
-                <p>Baguette</p>
-                <h6>$3.99</h6>
-                <img src="img/bread3.jpg" alt="Monday Bread" title="Monday Bread"/>
+                <div class="daily-bakes-float">
+                    <h5>Wednesday</h5>
+                    <p>Baguette</p>
+                    <h6>$3.99</h6>
+                </div>
+                <img src="img/bread3.jpg" alt="Wednesday Bread" title="Wednesday Bread"/>
             </article>
             <article>
-                <h5>Thursday</h5>
-                <p>Croissants</p>
-                <h6>$1.99</h6>
-                <img src="img/bread4.jpg" alt="Monday Bread" title="Monday Bread"/>
+                <div class="daily-bakes-float">
+                    <h5>Thursday</h5>
+                    <p>Croissants</p>
+                    <h6>$1.99</h6>
+                </div>
+                <img src="img/bread4.jpg" alt="Thursday Bread" title="Thursday Bread"/>
             </article>
             <article>
-                <h5>Friday</h5>
-                <p>Five Grain Loaf</p>
-                <h6>$5.99</h6>
-                <img src="img/bread5.jpg" alt="Monday Bread" title="Monday Bread"/>
+                <div class="daily-bakes-float">
+                    <h5>Friday</h5>
+                    <p>Five Grain Loaf</p>
+                    <h6>$5.99</h6>
+                </div>
+                <img src="img/bread5.jpg" alt="Friday Bread" title="Friday Bread"/>
             </article>
         </section>
         <hr>
@@ -97,17 +109,17 @@
         <!-- Cafe Menu -->
         <section class="cafe-menu">
             <h4>Cafe Menu</h4>
-            <p>Enjoy our selection of salads and sandwiches, made with bread fresh from our bakery. We also have hot and cold beverages.</p>
+            <p class="align-left">Enjoy our selection of salads and sandwiches, made with bread fresh from our bakery. We also have hot and cold beverages.</p>
             <article>
                 <h5>Salads</h5>
                 <div class="featured">
-                    <h5>Featured Item</h5>
-                    <p>Chef's Salad</p>
+                    <h5>Featured Item<br>
+                    Chef's Salad</h5>
                     <p>Cake halvah gingerbread halvah tart marshmallow tart muffin. Powder lollipop dessert sweet roll.</p>
                     <h6>$7.99</h6>
                     <img src="img/salad.jpg" alt="Salad" title="Salad" />
                 </div>
-                <ul>
+                <ul class="menu-cat">
                     <li>Lettuce Salad</li>
                         <h6>$6.99</h6>
                         <p>Fruitcake cake topping pastry jelly-o chocolate sweet sweet. Wafer sugar plum powder candy tart sweet roll chupa chups topping.</p>
@@ -122,13 +134,13 @@
             <article>
                 <h5>Sandwiches</h5>
                 <div class="featured">
-                    <h5>Featured Item</h5>
-                    <p>Caprese Sandwich</p>
+                    <h5>Featured Item<br>
+                    Caprese Sandwich</h5>
                     <p>Cake halvah gingerbread halvah tart marshmallow tart muffin. Powder lollipop dessert sweet roll.</p>
                     <h6>$7.99</h6>
                     <img src="img/sandwich.jpg" alt="Sandwich" title="Sandwich" />
                 </div>
-                <ul>
+                <ul class="menu-cat">
                     <li>Sandwich Item</li>
                         <h6>$6.99</h6>
                         <p>Fruitcake cake topping pastry jelly-o chocolate sweet sweet. Wafer sugar plum powder candy tart sweet roll chupa chups topping.</p>
@@ -143,13 +155,13 @@
             <article>
                 <h5>Hot Beverages</h5>
                 <div class="featured">
-                    <h5>Featured Item</h5>
-                    <p>Salted Caramel Mocha</p>
+                    <h5>Featured Item:</br>
+                    Salted Caramel Mocha</h5>
                     <p>Cake halvah gingerbread halvah tart marshmallow tart muffin. Powder lollipop dessert sweet roll.</p>
                     <h6>$7.99</h6>
                     <img src="img/coffee.jpg" alt="Coffee" title="Coffee" />
                 </div>
-                <ul>
+                <ul class="menu-cat">
                     <li>Beverage Item</li>
                         <h6>$6.99</h6>
                         <p>Fruitcake cake topping pastry jelly-o chocolate sweet sweet. Wafer sugar plum powder candy tart sweet roll chupa chups topping.</p>
@@ -164,13 +176,13 @@
             <article>
                 <h5>Cold Beverages</h5>
                 <div class="featured">
-                    <h5>Featured Item</h5>
-                    <p>Green Smoothie</p>
+                    <h5>Featured Item<br>
+                    Green Smoothie</h5>
                     <p>Cake halvah gingerbread halvah tart marshmallow tart muffin. Powder lollipop dessert sweet roll.</p>
                     <h6>$7.99</h6>
                     <img src="img/smoothie.jpg" alt="Green Smoothie" title="Green Smoothie" />
                 </div>
-                <ul>
+                <ul class="menu-cat">
                     <li>Beverage Item</li>
                         <h6>$6.99</h6>
                         <p>Fruitcake cake topping pastry jelly-o chocolate sweet sweet. Wafer sugar plum powder candy tart sweet roll chupa chups topping.</p>
@@ -188,10 +200,10 @@
         <section class="contact">
             <h4>Contact Us</h4>
                 <h5>Address</h5>
-                    <p>609 Sugar Lane</p>
-                    <p>Tallahassee, FL 32399</p>
+                    <p>609 Sugar Lane<br>
+                    Tallahassee, FL 32399</p>
                 <h5>Telephone</h5>
-                    <h6>Order Ahead</h6>
+                    <h6>Order Ahead!</h6>
                     <p>(321) 331-2589</p>
                 <h5>Email</h5>
                     <p><a href="malto:info@saltandbutter.com">info@saltandbutter.com</a></p>
