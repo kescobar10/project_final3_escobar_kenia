@@ -127,11 +127,25 @@ figure {
     text-transform: uppercase;
 }
 
-/** Daily Bakes **/
-
+/** December Promotion **/
+.december-promotion {
+    background-color: #ede4d5;
+    padding: 40px;
+    margin: 10px;
+    margin-bottom: 30px;
+}
 
 /** Cafe Menu **/
 
+.featured {
+    background-color: #ede4d5;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.featured h5 {
+    font-size: 0.7em;
+}
 
 
 /** Contact Us **/
@@ -188,4 +202,22 @@ input#submit {
 
 .reqd {
     color: red;
+}
+
+/** Footer **/
+.footer {
+    width: 100%;
+    background-color: #772f1a;
+    /*position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;*/
+    padding-top: 30px;
+    padding-bottom: 15px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.footer p {
+    color: #fff;
 }
