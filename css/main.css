@@ -27,6 +27,7 @@ h4 {
     font-family: "Playfair Display";
     color: #4d4d4d;
     font-size: 2.1em;
+    margin-top: 0;
 }
 
 h5 {
@@ -36,13 +37,14 @@ h5 {
     text-transform: uppercase;
     letter-spacing: 3px;
     font-weight: 700;
-    margin-bottom: 0;
+    margin-top: : 0;
 }
 
 h6 {
     font-family: 'Lato';
     font-size: 1em;
     color: #4d4d4d;
+    margin-top: 0;
 }
 
 p, ul {
@@ -51,6 +53,7 @@ p, ul {
     color: #4d4d4d;
     padding-bottom: 5px;
     line-height: 1.5;
+    margin-top: 0;
 }
 
 
@@ -97,37 +100,92 @@ figure {
 /** Main Container **/
 .main {
     width: 100%;
+    max-width: 960px;
     margin: auto;
 }
 
-/** About Section **/
-.about {
+.main section {
     padding: 10px;
-    background-color: #fff;
 }
 
-.about img {
+.main img {
     width: 100%;
+}
+
+/** About Section **/
+
+.about button {
+    background-color: #772f1a;
+    border-style: none;
+    height: 50px;
+    font-family: 'Lato';
+    color: #fff;
+    width: 70%;
+    margin: auto;
+    display: block;
+    margin-top: 10px;
+    text-transform: uppercase;
 }
 
 /** Daily Bakes **/
-.daily-bakes {
-    padding: 10px;
-}
-.daily-bakes img {
-    width: 100%;
-}
 
-.daily-bakes p {
-    margin-bottom: 0;
-}
 
 /** Cafe Menu **/
-.cafe-menu {
-    padding: 10px;
+
+
+
+/** Contact Us **/
+
+.social-media {
+    margin: auto;
+    width: 200px;
+    margin-top: 10px;
 }
 
-.cafe-menu img {
-    width: 100%;
+.social-media img {
+    width: 50px;
+    margin: auto;
+}
 
+.contact-form p {
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+
+.contact-form input {
+    display: block;
+    height: 50px;
+    width: 90%;
+}
+
+.contact a {
+    color: #772f1a;
+}
+
+.contact a:hover {
+    font-weight: 400;
+}
+
+.contact ul {
+    list-style-type: none;
+}
+
+#message {
+    height: 150px;
+}
+
+input#submit {
+    background-color: #772f1a;
+    border-style: none;
+    height: 50px;
+    font-family: 'Lato';
+    color: #fff;
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.reqd {
+    color: red;
 }
