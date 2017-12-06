@@ -6,42 +6,50 @@
     <meta name="description" content="">
 
     <link rel="stylesheet" href="css/vendor/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/vendor/fresco.css"/>
     <link rel="stylesheet" href="css/main.css">
     <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Kristi|Lato:300,400,700|Playfair+Display" rel="stylesheet">
 </head>
 <body>
 
-    <!-- Navigation -->
-    <nav>
-        <figure class="logo">
-            <img src="img/logo.jpg" alt="Salt &amp; Butter Logo" title="Salt &amp; Butter Logo" />
-        </figure>
-        <div class="hamburger">
-            <a href=""><img src="img/hamburger.svg" alt="Menu" title="Menu" /></a>
-        </div>
-    </nav>
-
-    <!-- Header -->
+    <!-- Header and Navigation -->
     <header>
+        <section id="logo-top">
+            <figure class="logo scroll">
+                <img src="img/logo.jpg" alt="Salt &amp; Butter Logo" title="Salt &amp; Butter Logo" />
+            </figure>
+        </section>
+        <nav>
+            <ul>
+                <li><a href="#about" class="scroll">About</a></li>
+                <li><a href="#daily" class="scroll">Daily Bakes</a></li>
+                <li><a href="#promotion" class="scroll">Monthly Promotion</a></li>
+                <li><a href="#menu" class="scroll">Cafe Menu</a></li>
+                <li><a href="#gallery" class="scroll">Cake Gallery</a></li>
+                <li><a href="#contact" class="scroll">Contact Us</a></li>
+            </ul>
+        </nav>
         <div class="header-image">
-            <img src="img/bread-hero.jpg" alt="Salt &amp; Butter Hero" title="Salt &amp; Butter Hero" />
+            <!--Background image through backstretch -->
             <div class="on-image">
-                <h2>Freshly Baked</h2>
-                <h3>Artisanal Bread</h3>
+                <h2 class="responsive-headline">Freshly Baked</h2>
+                <h3 class="responsive-headline">Artisanal Bread</h3>
             </div>
         </div>
     </header>
+    <hr>
 
     <!-- Main Container -->
     <main class="main">
-        <section class="about">
+        <section class="about" id="about">
             <h4>About Salt &amp; Butter</h4>
             <div id="about">
                 <p>Jujubes pie halvah carrot cake liquorice ice cream bonbon. Gummi bears oat cake apple pie lemon drops. Cake lollipop cake candy topping fruitcake cookie cake liquorice.</p>
                 <p>Donut croissant tart jelly beans chupa chups candy tiramisu cupcake. Ice cream chocolate lemon drops.</p>
             </div>
             <img src="img/bakery-display.jpg" alt="Bakery Display" />
+            <hr>
 
             <h5>New!</h5>
             <button type="button">Buy a Gift Certificate</button>
