@@ -391,6 +391,20 @@ a.scroll:hover {
         font-size: 5em;
     }
 
+    .about h5 {
+        clear: both;
+    }
+
+    .daily-bakes img {
+        width: 75%;
+        margin: auto;
+        display: block;
+    }
+
+    .daily-bakes-float p {
+        text-align: center;
+    }
+
     .december-promotion img, .cafe-menu img {
         width: 75%;
         margin: auto;
