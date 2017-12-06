@@ -115,6 +115,7 @@ figure {
 .header-image {
     position: relative;
     width: 100%;
+    padding-top: 250px;
 }
 
 .on-image {
@@ -171,6 +172,16 @@ figure {
     color: #772f1a;
     padding-bottom: 10px;
 }
+
+/** Gallery **/
+.gallery img {
+    width: 50%;
+    margin: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.fresco-gallery
 
 
 /** Contact Us **/
