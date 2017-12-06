@@ -64,12 +64,41 @@ p, ul {
     width: 150px;
     display: block;
     margin: auto;
+    margin-top: 10px;
 }
 
-.hamburger img {
-    display: block;
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
     margin: auto;
-    margin-bottom: 15px;
+    display: block;
+    top: 0;
+    width: 100%;
+    background: #fff;
+}
+
+nav ul li {
+    /*float: left;*/
+    font-size: 0.8em;
+}
+
+nav ul li a {
+    display: block;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+    color: #772f1a;
+}
+
+nav ul li a:hover {
+    font-weight: 400;
+}
+
+nav ul li a:visited {
+    color: #772f1a;
 }
 
 /*** Hero Image ***/
