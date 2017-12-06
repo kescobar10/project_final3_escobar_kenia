@@ -294,6 +294,10 @@ a.scroll:hover {
     h3 {
         font-size: 3.5em;
     }
+
+    .header-image {
+        padding-top: 300px;
+    }
 }
 @media all and (min-width: 480px) {
     h2 {
@@ -303,6 +307,11 @@ a.scroll:hover {
     h3 {
         font-size: 4.1em;
     }
+
+    .header-image {
+        padding-top: 400px;
+    }
+
 }
 
 @media all and (min-width: 640px) {
@@ -381,6 +390,14 @@ a.scroll:hover {
         text-align: left;
     }
 
+    nav ul li {
+        font-size: 1.1em;
+    }
+
+    .header-image {
+        padding-top: 550px;
+    }
+
 }
 
 @media all and (min-width: 1024px) {
@@ -394,6 +411,10 @@ a.scroll:hover {
 
     h3 {
         font-size: 5.5em;
+    }
+
+    .header-image {
+        padding-top: 600px;
     }
 
 }
