@@ -140,7 +140,7 @@ figure {
 }
 
 /** About Section **/
-.about button {
+.about button, .december-promotion button {
     background-color: #772f1a;
     border-style: none;
     height: 50px;
