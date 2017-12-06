@@ -323,31 +323,6 @@ a.scroll:hover {
         left: 20%;
     }
 
-    .about img {
-        float: left;
-        padding-right: 10px;
-        width: 40%;
-    }
-
-    #about {
-        float: right;
-        width: 55%;
-    }
-
-    .about h5 {
-        clear: both;
-    }
-
-    .daily-bakes img {
-        width: 75%;
-        margin: auto;
-        display: block;
-    }
-
-    .daily-bakes-float p {
-        text-align: center;
-    }
-
     h5, h6 {
         text-align: center;
     }
@@ -359,6 +334,50 @@ a.scroll:hover {
 
     .contact h5, .contact h6 {
         text-align: left;
+    }
+
+    nav {
+        text-align: center;
+        margin: auto;
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0 auto;
+        padding: 0;
+        overflow: hidden;
+        margin: auto;
+        display: block;
+        top: 0;
+        width: 100%;
+        background: #fff;
+        text-align: center;
+    }
+
+    nav ul li {
+        float: left;
+        font-size: 0.9em;
+        display: inline;
+    }
+
+    nav ul li a {
+        display: inline-block;
+        text-align: center;
+        padding: 15px 15px;
+        text-decoration: none;
+        color: #772f1a;
+    }
+
+    nav ul li a:hover {
+        font-weight: 400;
+    }
+
+    nav ul li a:visited {
+        color: #772f1a;
+    }
+
+    .header-image {
+        padding-top: 500px;
     }
 
 }
