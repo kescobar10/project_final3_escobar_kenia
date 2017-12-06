@@ -257,6 +257,34 @@ hr {
     display: none;
 }
 
+/** Back to Top button **/
+
+#top-button {
+    display: none;
+    position: fixed;
+    bottom: 160px;
+    right: 3px;
+    z-index: 99;
+    background-color: #fff;
+    /*background-color: rgba(119, 47, 26, 0.5);*/
+    border-style: none;
+    height: 50px;
+    width: 100px;
+    font-family: 'Lato';
+    color: #772f1a;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+a.scroll {
+    color: #772f1a;
+    text-decoration: none;
+}
+
+a.scroll:hover {
+    color: #772f1a;
+}
+
 /** Media Queries **/
 @media all and (min-width: 361px) {
     h2 {
